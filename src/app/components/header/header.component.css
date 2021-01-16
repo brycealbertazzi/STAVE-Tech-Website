@@ -1,0 +1,15 @@
+.header {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #617d91;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: white
+}
+
+.title {
+  justify-self: center;
+}
