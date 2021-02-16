@@ -3,3 +3,7 @@
   text-decoration: none;
   outline: none;
 }
+
+.my-header {
+  border-bottom: 4px solid #111
+}

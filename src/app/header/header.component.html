@@ -1,11 +1,18 @@
 <nav class="navbar navbar-light bg-secondary py-0 px-auto">
-  <div class="container-fluid">
+  <div class="container-fluid my-header">
+    <!-- <div class="position-start">
+      <button class="btn btn-outline-light btn-lg mx-3 " routerLink = "/" *ngIf="getRoute() !== '/'">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+          <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+        </svg>
+      </button>
+    </div> -->
     <img class="img-fluid" src="https://snipboard.io/Ou4GR3.jpg" alt="#" routerLink="/">
     <div class="position-end">
-      <button class="btn btn-secondary btn-lg mx-3 border" routerLink = "/about">About</button>
-      <button class="btn btn-secondary btn-lg mx-3 border" routerLink = "/contact">Contact</button>
-      <button class="btn btn-secondary btn-lg mx-3 border" routerLink = "/it-services">IT Services</button>
-      <button class="btn btn-secondary btn-lg mx-3 border" routerLink = "/covid">COVID-19</button>
+        <button class="btn btn-outline-light btn-lg m-3" routerLink = "/about" *ngIf="getRoute() !== '/about'">About</button>
+        <button class="btn btn-outline-light btn-lg m-3" routerLink = "/contact" *ngIf="getRoute() !== '/contact'">Contact</button>
+        <button class="btn btn-outline-light btn-lg m-3" routerLink = "/it-services" *ngIf="getRoute() !== '/it-services'">IT Services</button>
+        <button class="btn btn-outline-light btn-lg m-3" routerLink = "/covid" *ngIf="getRoute() !== '/covid'">COVID-19</button>
     </div>
   </div>
 </nav>
