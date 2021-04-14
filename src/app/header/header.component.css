@@ -1,9 +1,16 @@
-.img-fluid {
+.my-header {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 10px 10px 15px 15px #e5e5e5;
+}
+
+.stave-img {
   border: 0px;
   text-decoration: none;
   outline: none;
+  justify-self: center;
 }
 
-.my-header {
-  border-bottom: 4px solid #111
-}
+
+
+
